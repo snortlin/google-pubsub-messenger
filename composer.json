@@ -1,0 +1,26 @@
+{
+    "name": "snortlin/google-pubsub-messenger",
+    "description": "Symfony Google Pub/Sub extension Messenger Bridge",
+    "type": "symfony-messenger-bridge",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Petr Leixner",
+            "email": "snortlin@volny.cz"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "google/cloud-pubsub": "^1.35",
+        "symfony/messenger": "^5.4|^6.0"
+    },
+    "require-dev": {
+        "jetbrains/phpstorm-attributes": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Snortlin\\GooglePubsubMessenger\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
